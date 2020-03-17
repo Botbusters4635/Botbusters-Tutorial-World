@@ -20,7 +20,7 @@
  *
  * @see applyTax
  * For this problem, you must implement the applyTax function so that it returns the taxed amount from
- * a given income. As input it will received the income to tax, and you must return the tax it owes.
+ * a given income. As input it will receive the income to tax, and you must return the tax it owes.
  *
  * * * * * * Challenge * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *

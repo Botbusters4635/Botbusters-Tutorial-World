@@ -9,10 +9,10 @@ class ProgressiveTaxationTests {
     @Test
     fun `Test progressive taxation function with 5 inputs`() {
         assertEquals(0.0, applyTax(4566.0))
-        assertEquals(0.0, applyTax(4566.0))
+        assertEquals(700.0, applyTax(17000.0))
         assertEquals(1.0, applyTax(10010.0))
-        assertEquals(8697.0, applyTax(56789.0))
-        assertEquals(473326.0, applyTax(1234567.0))
+        assertEquals(8697.35, applyTax(56789.0))
+        assertEquals(473326.8, applyTax(1234567.0))
     }
 
     @Test
